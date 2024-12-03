@@ -48,13 +48,16 @@ Mon travail consiste à :
 - 6 - Fournir un registre privé pour stocker les images
 
 
-### Étapes 1 & 2 (*Provisionner une VM avec Centos7.6 comme OS*)
+### Étapes 1 & 2 (*Provisionner une VM avec Ubuntu20.04 comme OS*)
 
 Pour provisionner la VM j'ai opté pour **Proxmox Ve** pour le deploiement de la VM et l'installation de **Docker, git et docker-compose**
 
 la VM
 
-<img src="/Capture1.PNG" alt="ma vm version">
+<img src="/images/Capture1.PNG" alt="ma vm version">
+
+<img src="/images/Capture2.PNG">
+
 
 
 

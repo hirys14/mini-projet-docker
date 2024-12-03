@@ -54,7 +54,7 @@ Pour provisionner la VM j'ai opté pour **Proxmox Ve** pour le deploiement de la
 
 la VM
 
-
+<img src="/images/Capture1.JPG" alt="ma vm version">
 
 
 

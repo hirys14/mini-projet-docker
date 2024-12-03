@@ -52,13 +52,42 @@ Mon travail consiste à :
 
 Pour provisionner la VM j'ai opté pour **Proxmox Ve** pour le deploiement de la VM et l'installation de **Docker, git et docker-compose**
 
-la VM
+  - installation de la VM
 
 <img src="/images/Capture1.PNG" alt="ma vm version">
 
 <img src="/images/Capture2.PNG">
 
+  - update et upgrade
+    
+  - installation de git:
+  `sudo apt-get install git`
+  
+<img src="/images/Capture3.PNG">
 
+  - installation de docker et docker compose
 
+  `sudo apt-get install docker-compose`
+  
+<img src="/images/Capture4.PNG">
+
+-  Git clone https://github.com/eazytraining/bootcamp-project-update.git
+- 
+<img src="/images/Capture5.PNG">
+
+## Production des Dockerfiles
+
+  ### Dockerfile App backend
+
+  `FROM amazoncorretto:17-alpine`
+  `RUN apk update && apk upgrade`
+  `WORKDIR /app`
+  `COPY ./target/paymybuddy.jar /app/paymybuddy.jar`
+  `CMD ["java", "-jar", "/app/paymybuddy.jar"]`
+  `EXPOSE 8080`
+puis on crée l'image
+  `docker image build . -t backendApp:v1`
+
+<img src="/images/Capture6.PNG">
 
 

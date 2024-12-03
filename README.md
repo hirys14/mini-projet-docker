@@ -36,6 +36,25 @@ Se connecte à une base de données MySQL pour un stockage persistant
 Stocke les données utilisateur et transactionnelles
 Exposé sur le port 3306 pour que le backend se connecte
 
+## Travail à Faire
+
+Mon travail consiste à :
+
+- 1 - Provisionner une VM avec Ubuntu 20.04 comme OS
+- 2 - Installer Docker , git et Docker-compose sur la VM
+- 3 - Produire les Dockerfiles 
+- 4 - Builder & Tester les images (Créer des conteneurs et les faire interagir les uns avec les autres) 
+- 5 - Produire le docker-compose (**IAC**)
+- 6 - Fournir un registre privé pour stocker les images
+
+
+### Étapes 1 & 2 (*Provisionner une VM avec Centos7.6 comme OS*)
+
+Pour provisionner la VM j'ai opté pour **Proxmox Ve** pour le deploiement de la VM et l'installation de **Docker, git et docker-compose**
+
+la VM
+
+
 
 
 
